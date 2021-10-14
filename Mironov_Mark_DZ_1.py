@@ -2,7 +2,7 @@ duration = int(input())
 
 while duration > 0:
   if duration < 60:
-    print(duration)
+    print(f"{duration} сек")
     break
   elif 60 < duration < 3600:
     minutes = duration // 60
