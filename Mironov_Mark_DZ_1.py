@@ -8,6 +8,7 @@ while duration > 0:
     minutes = duration // 60
     duration %= 60
     print(f'{minutes} min:{duration} sec')
+    break
   elif 86400 > duration > 3600:
     hours = duration // 3600
     duration %= 3600
