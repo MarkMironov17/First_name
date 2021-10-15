@@ -23,7 +23,7 @@ while duration > 0:
     duration %= 3600
     minutes = duration // 60
     duration %= 60
-    print(f'{days} дн: {hours} час:{minutes} мин:{duration} сек')
+    print(f'{days} дн {hours} час {minutes} мин {duration} сек')
     break
 
 
